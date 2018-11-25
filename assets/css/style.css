@@ -11,19 +11,20 @@ body {
     /* flex: 1 0 auto; */
   }
 
-  nav {
-	  background-color: #54b5c5;
-	  border-bottom: 5px solid #b13362;
-  }
+nav {
+	background-color: #54b5c5;
+	border-bottom: 5px solid #b13362;
+}
 
-  .intro {
-	  background-color: #0f2147;
-	  min-height: 100vh;
-	  height: auto;
-	  display: flex;
-	  align-items: center;
-	  justify-content: center;
-  }
+.intro {
+	background-image: url("../images/crissXcross.png");  
+	background-color: #0f2147;
+	min-height: 100vh;
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 
 .intro > .row > .col > p {
 	font-size: 32px;
@@ -35,19 +36,19 @@ body {
 
 .intro > .row > .col > a {
 	background-color: transparent;
-	border: 2px solid white;
+	border: 2px solid #b13362;
 	position: absolute;
 	left: 45%;
 	margin-top: 20px;
 }
 
 .intro > .row > .col > a:hover {
-	background-color: #b13362;
-	border: 2px solid #b13362;
+	background-color: #54b5c5;
+	border: 2px solid #54b5c5;
 }
 
   #my-name {
-	  color: #DE9C2B;
+	  color: #b13362;
   }
 
 .about-me {
@@ -110,6 +111,10 @@ img {
 	cursor: pointer;
 }
 
+.fab {
+	font-size: 25px;
+}
+
 @media screen and (max-width: 768px) {
 
 }
@@ -130,65 +135,4 @@ img {
 
 
 
-
-
-/* html {
-  position: relative;
-  min-height: 100%;
-}
-
-body {
-	font-family: 'Crimson Text', serif;
-	font-size: 20px;
-	background: url("../images/grey_wash_wall.png") repeat;
-	color: #2a2b2f;
-	margin-bottom: 60px;
-
-}
-
-.container {
-	border: 3px solid #48582d;
-	background-color: #F5F5F5; 
-	margin-top: 30px;
-	margin-bottom: 100px;
-	clear: both;
-}
-
-#bodheader {
-	color: #9bb26c; 
-}
-
-.justify-content-end {
-	margin-right: 170px;
-
-}
-
-.imgdiv {
-	position: relative;
-
-}
-
-div > p {
-	width: 200px;
-	text-align: center;
-	background-color: #9bb26c; 
-	position: absolute;
-	bottom: 3px;	
-}
-
-button {
-	margin-bottom: 10px;
-}
-
-.footer {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 60px; /* Set the fixed height of the footer here */
-  line-height: 60px; /* Vertically center the text there */
-  background-color: #9499a5;
-  text-align: center;
-  border-top: 4px solid #9bb26c;
-} */
 
