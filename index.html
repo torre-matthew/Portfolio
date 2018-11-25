@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>TPKM Portfolio</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script id="project-card-template" type="text/x-handlebars-template">
+    {{#each projContent}}
+    <div class="col s12 l4">
+      <div class="card">
+        <div class="card-image">
+          <img src={{image}} alt="" class="activator">
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">{{projName}}<i class="material-icons right">close</i></span>
+          <p>{{description}}</p>
+          <p><a href={{gitHub}}>Check it out on github</a></p>
+        </div>
+      </div>  
+    </div>
+    {{/each}}
+  </script>
+</head>
+<body>
+<main>
+
+<!-------------------------------------------- Introduction --------------------------------------------------->
+    <div class="section intro">
+      <!-- <video autoplay muted loop id="myVideo">
+        <source src="./assets/images/Particles.mp4" type="video/mp4">
+      </video> -->
+      <div class="row">
+        <div class="col s12">
+          <p>Hello, I'm <span id="my-name">Torre Matthew</span>.</p>
+          <p>I'm a product manager and full-stack web developer.</p>
+          <a class="waves-effect waves-light btn-large">Learn More</a>
+        </div>
+      </div>
+    </div>
+
+<!-------------------------------------------- About Me --------------------------------------------------->   
+  <nav>
+      <div class="nav-wrapper">    
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li>
+              <a href="index.html">About</a>
+            </li>
+            <li>
+              <a href="portfolio.html">Portfolio</a>
+            </li>
+            <li>
+              <a href="contact.html">Contact</a>
+            </li>
+          </ul>
+      </div>    
+    </nav>
+
+
+    <div class="section about-me">
+        <div class="row">
+          <div class="col s12">
+            <p>Info about me will go here.</p>
+          </div>
+        </div>
+    </div>
+
+<!-------------------------------------------- Projects --------------------------------------------------->
+    
+    <div class="section projects">
+      <div class="row">
+        <div class="col s12">
+          <p>Projects</p>
+        </div>
+        <div class="row">
+          <div class="col s12">
+            <ul class="tabs">
+              <li class="tab col s3"><a href="#all">All</a></li>
+              <li class="tab col s3"><a href="#client">Client Only Apps</a></li>
+              <li class="tab col s3"><a href="#node">Node.js</a></li>
+              <li class="tab col s3"><a href="#full-stack">Full-stack Apps</a></li>
+            </ul>
+          </div>
+          <div id="all" class="col s12">
+            <div id="all-projects"></div>
+          </div>
+          <div id="client" class="col s12">
+              <div id="client-apps"></div>
+          </div>
+          <div id="node" class="col s12">
+              <div id="node-apps"></div>
+          </div>
+          <div id="full-stack" class="col s12">
+              <div id="fs-apps"></div>
+          </div>
+        </div>
+      </div>
+  </div>
+
+<!-------------------------------------------- Contact Me --------------------------------------------------->
+    <div class="section contact">
+      <form action="">
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="name" type="text" class="validate">
+            <label for="name">What's your name?</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="email" type="email" class="validate">
+            <label for="email">Email</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <textarea id="textarea1" class="materialize-textarea"></textarea>
+            <label for="textarea1">Message</label>
+          </div>
+        </div>
+        <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+          <i class="material-icons right">send</i>
+        </button>
+      </form>
+    </div>
+    
+  </main>
+  <footer class="page-footer">
+    <div class="row">
+      <div class="col s12">
+        <h5 class="white-text">Footer Content</h5>
+        <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+      </div>
+    </div>
+  </footer>
+
+<!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<!-- Materialize javascript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<!-- Handlebars -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.12/handlebars.min.js"></script>
+<!-- Custom javascript -->
+  <script src="./assets/javascript/portfolio.js"></script>
+</body>
+</html>
+            
