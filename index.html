@@ -31,38 +31,39 @@
 <main>
 
 <!-------------------------------------------- Introduction --------------------------------------------------->
+
+
     <div class="section intro">
-      <!-- <video autoplay muted loop id="myVideo">
-        <source src="./assets/images/Particles.mp4" type="video/mp4">
-      </video> -->
       <div class="row">
         <div class="col s12">
           <p>Hello, I'm <span id="my-name">Torre Matthew</span>.</p>
           <p>I'm a product manager and full-stack web developer.</p>
-          <a class="waves-effect waves-light btn-large">Learn More</a>
+          <a href="#about-me" class="waves-effect waves-light btn-large">Learn More</a>
         </div>
       </div>
     </div>
+    
 
 <!-------------------------------------------- About Me --------------------------------------------------->   
-  <nav>
+<div id="nav-pos">
+    <nav>
       <div class="nav-wrapper">    
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li>
-              <a href="index.html">About</a>
-            </li>
-            <li>
-              <a href="portfolio.html">Portfolio</a>
-            </li>
-            <li>
-              <a href="contact.html">Contact</a>
-            </li>
-          </ul>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li>
+            <a href="#about-me">About</a>
+          </li>
+          <li>
+            <a href="#projects">Projects</a>
+          </li>
+          <li>
+            <a href="#contact-me" dest>Contact</a>
+          </li>
+        </ul>
       </div>    
     </nav>
-
-
-    <div class="section about-me">
+  </div>
+  
+    <div class="section about-me" id="about-me">
         <div class="row">
           <div class="col s12">
             <p>Info about me will go here.</p>
@@ -72,7 +73,7 @@
 
 <!-------------------------------------------- Projects --------------------------------------------------->
     
-    <div class="section projects">
+    <div class="section projects" id="projects">
       <div class="row">
         <div class="col s12">
           <p>Projects</p>
@@ -103,7 +104,7 @@
   </div>
 
 <!-------------------------------------------- Contact Me --------------------------------------------------->
-    <div class="section contact">
+    <div class="section contact" id="contact-me">
       <form action="">
         <div class="row">
           <div class="input-field col s12">

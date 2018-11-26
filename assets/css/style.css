@@ -14,6 +14,7 @@ body {
 nav {
 	background-color: #54b5c5;
 	border-bottom: 5px solid #b13362;
+	margin: auto;
 }
 
 .intro {
@@ -79,8 +80,8 @@ section.contact > form {
 	background-color: #1B3C81;
 }
 
-.page-footer {
-	background-color: #54b5c5;
+.tabs {
+	margin-bottom: 25px;
 }
 
 .tabs .tab a {
@@ -111,8 +112,13 @@ img {
 	cursor: pointer;
 }
 
-.fab {
+.page-footer > .row > .col > i {
 	font-size: 25px;
+	color: #b13362;
+}
+
+.page-footer {
+	background-color: #54b5c5;
 }
 
 @media screen and (max-width: 768px) {

@@ -124,6 +124,19 @@ let displayProjects = (data, displayID) => {
     $(displayID).html(html);
 }
 
+let stickyNav = () => {
+    let navPos = $("#nav-pos").offset().top;
+    console.log(navPos);
+    console.log(pageYOffset);
+    
+    if (navPos > pageYOffset) {
+        $("nav").show("slow");
+    }
+    else {
+        $("nav").show("slow");
+    }
+}
+
 $(document).ready(function(){
     $('.tabs').tabs();
     displayProjects(allProjArr, "#all-projects");
@@ -132,5 +145,8 @@ $(document).ready(function(){
     displayProjects(fullStack, "#fs-apps");
 });
 
-  
+$(document).scroll(function () {
+    stickyNav();
+});
+
  
