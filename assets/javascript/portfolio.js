@@ -131,6 +131,7 @@ let stickyNav = () => {
     
     if (navPos > pageYOffset) {
         $(".navbar-fixed > nav").hide();
+        $(".navbar-fixed").css("height", "0");
     }
     else {
         $(".navbar-fixed > nav").fadeIn("slow");
@@ -143,6 +144,7 @@ $(document).ready(function(){
     displayProjects(clientProj, "#client-apps");
     displayProjects(nodeProj, "#node-apps");
     displayProjects(fullStack, "#fs-apps");
+    stickyNav();
 });
 
 $(document).scroll(function () {
