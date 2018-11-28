@@ -130,10 +130,10 @@ let stickyNav = () => {
     console.log(pageYOffset);
     
     if (navPos > pageYOffset) {
-        $("nav").show("slow");
+        $(".navbar-fixed > nav").hide();
     }
     else {
-        $("nav").show("slow");
+        $(".navbar-fixed > nav").fadeIn("slow");
     }
 }
 
