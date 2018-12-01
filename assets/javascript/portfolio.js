@@ -32,35 +32,35 @@ let projDetails = {
     },
 
     gitLit: {
-        description: "Placeholder", 
+        description: "If you're sitting at home craving a cocktail, Git Lit's got you covered. This app allows you to search your favorite cocktail, get a list of ingredients, and provide a video on how to create it yourself. Enjoy!!", 
         projName: "Git Lit",
         image: "./assets/images/gitlit.png",
         gitHub: "https://github.com/torre-matthew/Git-Lit",
-        deployedUrl: "Placeholder"
+        deployedUrl: "https://torre-matthew.github.io/Git-Lit/"
     },
 
     bobaMeBaby: {
-        description: "Placeholder", 
+        description: "If buying bubble tea was something done from the command line, this would be the perfect app. It's a Node CLI E-commerce Store for Purchasing Milk and Fruit Bubble Tea.", 
         projName: "Boba Me, Baby!!",
         image: "./assets/images/bobamebaby.png",
-        gitHub: "PlaceHolder",
+        gitHub:"https://github.com/torre-matthew/node-cli-store",
         deployedUrl: "Placeholder"
     },
 
     petal: {
-        description: "Placeholder", 
+        description: "We're all familiar with Siri, Alexa, and Google Assistant. Well, meet Petal. She's a node app runs completely from the command line. She'll ask questions, take responses, and based on those responses deliver data to the user.", 
         projName: "Petal",
         image: "./assets/images/petalnodeapp.png",
-        gitHub: "PlaceHolder",
+        gitHub:"https://github.com/torre-matthew/PETAL-node-app",
         deployedUrl: "Placeholder"
     },
 
     potterAlterEgo: {
-        description: "Placeholder", 
+        description: "This app is a fun play on a personality matching app. The twist is, depending on how you answer questions to a brief survey, you'll learn what character you'd be if you existed in the Harry Potter Universe.", 
         projName: "Potter Alter-ego",
         image: "./assets/images/potteralterego.png",
-        gitHub: "PlaceHolder",
-        deployedUrl: "Placeholder"
+        gitHub:"https://github.com/torre-matthew/PotterAlterEgo",
+        deployedUrl:"https://desolate-coast-33262.herokuapp.com/home"
     },
 
     potterHouseSorter: {
