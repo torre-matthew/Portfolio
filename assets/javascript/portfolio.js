@@ -64,34 +64,34 @@ let projDetails = {
     },
 
     potterHouseSorter: {
-        description: "Placeholder", 
+        description: "Learn a bit about the house sorting process depicted in J.K. Rowlings' Harry Potter novels. Then sort your family and friends into the house that's best suited to their personality.", 
         projName: "Potter House Sorter",
         image: "./assets/images/potterhousesorter.png",
-        gitHub: "PlaceHolder",
-        deployedUrl: "Placeholder"
+        gitHub: "https://github.com/torre-matthew/PotterHouseSorter",
+        deployedUrl: "https://fathomless-dawn-67238.herokuapp.com/"
     },
 
     iDecide: {
-        description: "Placeholder", 
+        description: "iDecide is a lightweight interface for groups of people to make decisions together.", 
         projName: "iDecide",
         image: "./assets/images/idecide.png",
-        gitHub: "PlaceHolder",
-        deployedUrl: "Placeholder"
+        gitHub: "https://github.com/torre-matthew/TheCrimsonKnuckleRepo",
+        deployedUrl: "https://desolate-hamlet-84600.herokuapp.com/"
     }
 }
 
 let allProjArr = 
 [ 
-    projDetails.crystalCollector,
+    projDetails.iDecide,
+    projDetails.gitLit,
+    projDetails.potterAlterEgo,
+    projDetails.potterHouseSorter,
+    projDetails.bobaMeBaby,
+    projDetails.petal,
     projDetails.pixarTrivia,
     projDetails.horrorMovieShowdown,
     projDetails.movieCarPickupService,
-    projDetails.gitLit,
-    projDetails.bobaMeBaby,
-    projDetails.petal,
-    projDetails.potterAlterEgo,
-    projDetails.potterHouseSorter,
-    projDetails.iDecide,
+    projDetails.crystalCollector,
 ]
 
 let clientProj = 
@@ -126,8 +126,8 @@ let displayProjects = (data, displayID) => {
 
 let stickyNav = () => {
     let navPos = $("#nav-pos").offset().top;
-    console.log(navPos);
-    console.log(pageYOffset);
+    console.log("navPos" + navPos);
+    console.log("pageY" + pageYOffset);
     
     if (navPos > pageYOffset) {
         $(".navbar-fixed > nav").hide();

@@ -14,12 +14,10 @@ body {
 nav {
 	background-color: #54b5c5;
 	border-bottom: 5px solid #b13362;
-	margin: auto;
 }
 
 .intro {
-	background-image: url("../images/crissXcross.png");  
-	background-color: #0f2147;
+	background-image: url("../images/crissXcross.png");
 	min-height: 100vh;
 	height: auto;
 	display: flex;
@@ -55,6 +53,7 @@ nav {
 .about-me {
 	min-height: 100vh;
 	height: auto;
+	margin-top: 25px;
 }
 
 .projects {
@@ -63,21 +62,23 @@ nav {
 	height: auto;
 }
 
-section.contact {
-	/* position: relative; */
-}
-
-section.contact > form {
-	/* position: absolute;
-	top: 25%;
-	left: 25%;
-	width: 50%; */
-}
 
 .contact {
 	min-height: 100vh;
 	height: auto;
 	background-color: #1B3C81;
+	align-content: center;
+}
+
+.btn {
+	background-color: transparent;
+	border: 2px solid #b13362;
+	align-content: right;
+}
+
+.btn:hover {
+	background-color: #54b5c5;
+	border: 2px solid #54b5c5;
 }
 
 .tabs {
