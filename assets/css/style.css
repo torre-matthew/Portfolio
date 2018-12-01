@@ -43,7 +43,9 @@ nav {
 
 .intro > .row > .col > a:hover {
 	background-color: #54b5c5;
-	border: 2px solid #54b5c5;
+	border: 2px solid #b13362;
+	color: #b13362;
+	font-weight: bold;
 }
 
   #my-name {
@@ -73,16 +75,22 @@ nav {
 .btn {
 	background-color: transparent;
 	border: 2px solid #b13362;
-	align-content: right;
+	align-content: center;
+	position: relative;
+	left: 500px;
 }
 
 .btn:hover {
 	background-color: #54b5c5;
-	border: 2px solid #54b5c5;
-}
+	border: 2px solid #b13362;
+	color: #b13362;
+	font-weight: bold;
+}	
 
 .tabs {
 	margin-bottom: 25px;
+	background-color: transparent;
+	font-weight: bold;
 }
 
 .tabs .tab a {
@@ -90,12 +98,15 @@ nav {
 }
 
 .tabs .tab a:hover {
-	color: #DE9C2B;
+	background-color: #54b5c5;
+	color: #b13362;
+	font-weight: bold;
 }
 
 .tabs .tab a:focus, .tabs .tab a:focus.active {
-	color: #DE9C2B;
-	background-color: #b13362;
+	color: #b13362;
+	background-color: #54b5c5;
+	border-bottom: 2px solid #b13362;
 }
 
 img {
@@ -111,6 +122,18 @@ img {
 
 .activator {
 	cursor: pointer;
+}
+
+input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea {
+	border-bottom: 1px solid white;
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]) {
+	border-bottom: 1px solid white;
+}
+
+.input-field>label {
+	color: white;
 }
 
 .page-footer > .row > .col > i {
