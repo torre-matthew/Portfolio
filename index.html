@@ -12,7 +12,7 @@
 
   <script id="project-card-template" type="text/x-handlebars-template">
     {{#each projContent}}
-    <div class="col s12 m6 l4">
+    <div class="col s12 m6 l6">
       <div class="card">
         <div class="card-image">
           <img src={{image}} alt="" class="activator">
@@ -92,24 +92,20 @@
         </div>
         <div class="row">
           <div class="col s12">
-            <ul class="tabs tabs-fixed-width">
-              <li class="tab col s3"><a href="#all">All</a></li>
-              <li class="tab col s3"><a href="#client">Client Only Apps</a></li>
-              <li class="tab col s3"><a href="#node">Command Line Node Apps</a></li>
-              <li class="tab col s3"><a href="#full-stack">Full-Stack Apps</a></li>
+            <ul class="tabs">
+              <li class="tab col s12 l4"><a class="active" href="#spotlight">SpotLight Apps</a></li>
+              <li class="tab col s12 l4"><a href="#node">Node.js Apps</a></li>
+              <li class="tab col s12 l4"><a href="#all">All</a></li>
             </ul>
+          </div>
+          <div id="spotlight" class="col s12">
+            <div id="spotlight"></div>
+          </div>
+          <div id="node" class="col s12">
+            <div id="node-apps"></div>
           </div>
           <div id="all" class="col s12">
             <div id="all-projects"></div>
-          </div>
-          <div id="client" class="col s12">
-              <div id="client-apps"></div>
-          </div>
-          <div id="node" class="col s12">
-              <div id="node-apps"></div>
-          </div>
-          <div id="full-stack" class="col s12">
-              <div id="fs-apps"></div>
           </div>
         </div>
       </div>

@@ -1,5 +1,5 @@
 body {
-    display: flex;
+	display: flex;
 	min-height: 100vh;
 	width: 100vw;
 	flex-direction: column;
@@ -13,6 +13,26 @@ body {
 	margin-bottom: 15px;
 	font-weight: bold;
 }
+
+h2 {
+	position: relative;
+	padding-bottom: 8px;
+}
+
+h2::first-letter {
+	color: #FF6961;
+	font-weight: bold;
+}
+
+/* h2::before {
+	content: '';
+  	position: absolute;
+	bottom: 12; 
+  	width: 5px;
+  	height: 50px;
+	background-color: #FF6961;
+	  
+} */
 
 nav {
 	background-color: #21272d;
@@ -65,12 +85,12 @@ nav {
 .about-me {
 	min-height: 100vh;
 	height: auto;
-	background-color: #2F3740;
+	background-color: #90aacd;
 }
 
 .projects {
 	min-height: 100vh;
-	background-color: #90aacd;
+	background-color: #2F3740;
 	height: auto;
 }
 
@@ -104,8 +124,12 @@ nav {
 	font-weight: bold;
 }
 
+.tabs .indicator {
+	background-color: #FF6961;
+}
+
 .tabs .tab a {
-	color: black;
+	color: white;
 }
 
 .tabs .tab a:hover {

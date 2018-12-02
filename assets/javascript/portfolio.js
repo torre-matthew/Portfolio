@@ -105,15 +105,17 @@ let clientProj =
 
 let nodeProj =
 [ 
+    projDetails.iDecide,
+    projDetails.potterAlterEgo,
+    projDetails.potterHouseSorter,
     projDetails.bobaMeBaby,
     projDetails.petal,
 ] 
 
-let fullStack = 
+let spotlight = 
 [ 
-    projDetails.potterAlterEgo,
-    projDetails.potterHouseSorter,
     projDetails.iDecide,
+    projDetails.gitLit
 ]
 
 
@@ -126,8 +128,8 @@ let displayProjects = (data, displayID) => {
 
 let stickyNav = () => {
     let navPos = $("#nav-pos").offset().top;
-    console.log("navPos" + navPos);
-    console.log("pageY" + pageYOffset);
+    // console.log("navPos" + navPos);
+    // console.log("pageY" + pageYOffset);
     
     if (navPos > pageYOffset) {
         $(".navbar-fixed > nav").hide();
@@ -144,7 +146,7 @@ $(document).ready(function(){
     displayProjects(allProjArr, "#all-projects");
     displayProjects(clientProj, "#client-apps");
     displayProjects(nodeProj, "#node-apps");
-    displayProjects(fullStack, "#fs-apps");
+    displayProjects(spotlight, "#spotlight");
     stickyNav();
 });
 
