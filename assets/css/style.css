@@ -43,6 +43,12 @@ nav {
 	background-color: #445a7c;
 }
 
+.sidenav > li > a {
+	color: #FF6961;
+	font-weight: bold;
+	font-size: 18px;
+}
+
 .intro {
 	background-image: url("../images/crissXcross.png");
 	min-height: 100vh;
