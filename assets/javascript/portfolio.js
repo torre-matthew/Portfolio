@@ -140,6 +140,7 @@ let stickyNav = () => {
 
 $(document).ready(function(){
     $('.tabs').tabs();
+    $('.sidenav').sidenav();
     displayProjects(allProjArr, "#all-projects");
     displayProjects(clientProj, "#client-apps");
     displayProjects(nodeProj, "#node-apps");
