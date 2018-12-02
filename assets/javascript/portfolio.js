@@ -3,16 +3,16 @@ let projDetails = {
         description: "The concept of this game is pretty simple but the logic necessary to pull it off really helped reinforce fundemental concepts of javascript and programming in general.", 
         projName: "Crystal Collector",
         image: "./assets/images/crystal.png",
-        gitHub: "test",
-        deployedUrl: "test"
+        gitHub: "https://github.com/torre-matthew/Unit-4-Game",
+        deployedUrl: "https://torre-matthew.github.io/Unit-4-Game/"
     },
 
     pixarTrivia: {
-        description: "Fun trivia game that provided an opportunity to play with setInterval and setTimout javascript functions.", 
+        description: "If you're a fan of all things Pixar, test your knowledge with this trivia game.", 
         projName: "Pixar Trivia",
         image: "./assets/images/triviagame.png",
-        gitHub: "TextTrackList",
-        deployedUrl: "test"
+        gitHub: "https://github.com/torre-matthew/TriviaGame",
+        deployedUrl: "https://torre-matthew.github.io/TriviaGame/"
     },
 
     horrorMovieShowdown: {
@@ -24,11 +24,11 @@ let projDetails = {
     },
 
     movieCarPickupService: {
-        description: "Placeholder", 
+        description: "Imagine a service similar to Uber or Lyft where you were picked up iconic cars from classic movies. This app would help you keep track of the pickup schedule of this service.", 
         projName: "Movie Car Pickup Service",
         image: "./assets/images/MovieCarService.png",
-        gitHub: "PlaceHolder",
-        deployedUrl: "Placeholder"
+        gitHub: "https://github.com/torre-matthew/Scheduler",
+        deployedUrl: "https://torre-matthew.github.io/Scheduler/"
     },
 
     gitLit: {
@@ -40,7 +40,7 @@ let projDetails = {
     },
 
     bobaMeBaby: {
-        description: "If buying bubble tea was something done from the command line, this would be the perfect app. It's a Node CLI E-commerce Store for Purchasing Milk and Fruit Bubble Tea.", 
+        description: "If buying bubble tea was something done from the command line of a Node app, this would be that app. It's a Node CLI E-commerce Store for Purchasing Milk and Fruit Bubble Tea.", 
         projName: "Boba Me, Baby!!",
         image: "./assets/images/bobamebaby.png",
         gitHub:"https://github.com/torre-matthew/node-cli-store",
@@ -48,7 +48,7 @@ let projDetails = {
     },
 
     petal: {
-        description: "We're all familiar with Siri, Alexa, and Google Assistant. Well, meet Petal. She's a node app runs completely from the command line. She'll ask questions, take responses, and based on those responses deliver data to the user.", 
+        description: "Meet Petal. She's a node app that runs from the command line. She'll ask questions, take responses, and based on those responses deliver data to the user.", 
         projName: "Petal",
         image: "./assets/images/petalnodeapp.png",
         gitHub:"https://github.com/torre-matthew/PETAL-node-app",
@@ -72,7 +72,7 @@ let projDetails = {
     },
 
     iDecide: {
-        description: "iDecide is a lightweight interface for groups of people to make decisions together.", 
+        description: "iDecide is a lightweight interface for groups of people to make decisions together. The foudational concept for this app comes from the 'Dot Voting' technique for group collaboration.", 
         projName: "iDecide",
         image: "./assets/images/idecide.png",
         gitHub: "https://github.com/torre-matthew/TheCrimsonKnuckleRepo",
@@ -96,11 +96,11 @@ let allProjArr =
 
 let clientProj = 
 [ 
-    projDetails.crystalCollector,
+    projDetails.gitLit,
     projDetails.pixarTrivia,
-    projDetails.horrorMovieShowdown,
     projDetails.movieCarPickupService,
-    projDetails.gitLit
+    projDetails.horrorMovieShowdown,
+    projDetails.crystalCollector,
 ]
 
 let nodeProj =

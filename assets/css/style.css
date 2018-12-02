@@ -43,9 +43,12 @@ nav {
 .intro > .row > .col > a {
 	background-color: transparent;
 	border: 2px solid #FF6961;
-	position: absolute;
-	left: 45%;
 	margin-top: 20px;
+}
+
+/* Center that button in the intro */
+.intro > .row > .col {
+	text-align: center;
 }
 
 .intro > .row > .col > a:hover {
@@ -80,15 +83,13 @@ nav {
 	min-height: 100vh;
 	height: auto;
 	background-color: #445a7c;
-	align-content: center;
+	text-align: center;
 }
 
 .form-submit-btn {
 	border: 2px solid #FF6961;
 	background-color: #445a7c;
 	align-content: center;
-	position: relative;
-	left: 500px;
 }
 
 .form-submit-btn:hover {
@@ -122,6 +123,10 @@ nav {
 img {
 	height: 280px;
 	width: 500px;
+}
+
+.material-icons {
+	color: #FF6961;
 }
 
 .proj-desc {
@@ -158,7 +163,7 @@ footer > .row > .col a > i {
 	background-color: #21272d;
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
 
 	.intro > .row > .col > a {
 		position: absolute;
@@ -189,7 +194,7 @@ footer > .row > .col a > i {
 	left: 90px;
 }
 
-}
+} */
 
 
 
