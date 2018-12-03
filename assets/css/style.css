@@ -24,15 +24,9 @@ h2::first-letter {
 	font-weight: bold;
 }
 
-/* h2::before {
-	content: '';
-  	position: absolute;
-	bottom: 12; 
-  	width: 5px;
-  	height: 50px;
-	background-color: #FF6961;
-	  
-} */
+p {
+	font-family: 'Spectral', serif;
+}
 
 nav {
 	background-color: #21272d;
@@ -60,6 +54,7 @@ nav {
 
 .intro > .row > .col > p {
 	font-size: 32px;
+	font-family: 'Special Elite', cursive;
 	font-weight: bold;
 	color: white;
 	text-align: center;
