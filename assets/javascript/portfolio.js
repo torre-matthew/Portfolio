@@ -77,6 +77,30 @@ let projDetails = {
         image: "./assets/images/idecide.png",
         gitHub: "https://github.com/torre-matthew/TheCrimsonKnuckleRepo",
         deployedUrl: "https://desolate-hamlet-84600.herokuapp.com/"
+    },
+
+    chatterBox: {
+        description: "Share Interesting Articles, Spark Insightful Conversation. This app gives you a place to read interesting articles. When you comment on those articles, you'll be adding them to the community portal where other Chatter Boxers can join in on the conversation.", 
+        projName: "The Chatter Box",
+        image: "./assets/images/chatterBox.png",
+        gitHub: "https://github.com/torre-matthew/TheChatterBox",
+        deployedUrl: "https://young-brook-36013.herokuapp.com/"
+    },
+
+    piggyBankRock: {
+        description: "I wanted a fun way to give my six year old some practice counting money. The game presents a certain amount of money positioned as money in the kids piggy bank currently.", 
+        projName: "Piggy Bank Rock!",
+        image: "./assets/images/piggyBankRock.png",
+        gitHub: "https://github.com/torre-matthew/PiggyBankRock",
+        deployedUrl: "https://torre-matthew.github.io/PiggyBankRock/"
+    },
+
+    pocketPantry: {
+        description: "Go from nearly empty pantry to spectacular meal with Pocket Pantry. This app will take the ingredients you have on hand and give you great dish ideas that could be made with those ingredients.", 
+        projName: "Pocket Pantry",
+        image: "./assets/images/pocketPantry.png",
+        gitHub: "https://github.com/torre-matthew/KnuckleProj3Repo",
+        deployedUrl: "https://murmuring-badlands-78285.herokuapp.com/"
     }
 }
 
@@ -89,9 +113,7 @@ let allProjArr =
     projDetails.bobaMeBaby,
     projDetails.petal,
     projDetails.pixarTrivia,
-    projDetails.horrorMovieShowdown,
-    projDetails.movieCarPickupService,
-    projDetails.crystalCollector,
+    projDetails.movieCarPickupService
 ]
 
 let clientProj = 
@@ -99,8 +121,8 @@ let clientProj =
     projDetails.gitLit,
     projDetails.pixarTrivia,
     projDetails.movieCarPickupService,
-    projDetails.horrorMovieShowdown,
-    projDetails.crystalCollector,
+    // projDetails.horrorMovieShowdown,
+    // projDetails.crystalCollector,
 ]
 
 let nodeProj =
@@ -114,8 +136,11 @@ let nodeProj =
 
 let spotlight = 
 [ 
+    projDetails.pocketPantry,
     projDetails.iDecide,
-    projDetails.gitLit
+    projDetails.gitLit,
+    projDetails.chatterBox,
+    projDetails.piggyBankRock
 ]
 
 
