@@ -79,9 +79,9 @@ nav {
 	font-weight: bold;
 }
 
-  #my-name {
+#my-name {
 	  color: #FF6961;
-  }
+}
 
 .about-me {
 	min-height: 100vh;
@@ -98,6 +98,17 @@ nav {
 	min-height: 100vh;
 	background-color: #2F3740;
 	height: auto;
+}
+
+.proj-pic {
+	width: 65vw;
+	height: 65vh;
+}
+
+.proj-desc {
+	text-align: center;
+	margin-top: 35px;
+	margin-bottom: 35px;
 }
 
 .card .card-reveal {
@@ -159,15 +170,11 @@ img {
 	color: #FF6961;
 }
 
-.proj-desc {
-	text-align: center;
-	margin-top: 35px;
-	margin-bottom: 35px;
-}
-
 .activator {
 	cursor: pointer;
 }
+
+
 
 input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea {
 	border-bottom: 1px solid white;
