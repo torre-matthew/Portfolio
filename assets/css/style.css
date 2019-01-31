@@ -79,9 +79,9 @@ nav {
 	font-weight: bold;
 }
 
-  #my-name {
+#my-name {
 	  color: #FF6961;
-  }
+}
 
 .about-me {
 	min-height: 100vh;
@@ -98,6 +98,30 @@ nav {
 	min-height: 100vh;
 	background-color: #2F3740;
 	height: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+.proj-pic {
+	width: 900px;
+	height: 700px;
+}
+
+.proj-desc {
+	font-size: 20px;
+	color: white;
+}
+
+.proj-desc {
+	text-align: center;
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+
+.accent-proj-name {
+	color: #FF6961;
+	font-weight: bold;
 }
 
 .card .card-reveal {
@@ -157,17 +181,14 @@ img {
 
 .material-icons {
 	color: #FF6961;
-}
-
-.proj-desc {
-	text-align: center;
-	margin-top: 35px;
-	margin-bottom: 35px;
+	font-size: 10px;
 }
 
 .activator {
 	cursor: pointer;
 }
+
+
 
 input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea {
 	border-bottom: 1px solid white;
@@ -193,7 +214,7 @@ footer > .row > .col a > i {
 	background-color: #21272d;
 }
 
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
 
 	.intro > .row > .col > a {
 		position: absolute;
@@ -212,19 +233,14 @@ footer > .row > .col a > i {
 
 
 
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 340px) {
 
-.intro > .row > .col > a {
-	position: absolute;
-	left: 25%;
+.proj-pic {
+	width: 100px;
+	height: 100px;
 }
 
-.form-submit-btn {
-	position: relative;
-	left: 90px;
 }
-
-} */
 
 
 
