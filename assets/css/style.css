@@ -240,8 +240,8 @@ footer > .row > .col a > i {
 	}
 	
 	.form-submit-btn {
-		position: relative;
-		left: 275px;
+		position: absolute;
+		left: 50%;
 	}
 	
 	}
@@ -251,11 +251,31 @@ footer > .row > .col a > i {
 
 
 
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 335px) {
+
+.proj-desc {
+	font-size: 16px;
+	color: white;
+}
+
+.game-desc {
+	font-size: 16px;
+	color: white;
+}
 
 .proj-pic {
-	width: 100px;
-	height: 100px;
+	width: 275px;
+	height: 200px;
+}
+
+.game-pic {
+	width: 275px;
+	height: 200px;
+}
+
+.form-submit-btn {
+	position: absolute;
+	left: 30%;
 }
 
 }
