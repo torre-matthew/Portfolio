@@ -232,11 +232,33 @@ footer > .row > .col a > i {
 	background-color: #21272d;
 }
 
+
+
 @media screen and (max-width: 768px) {
 
 	.intro > .row > .col > a {
 		position: absolute;
 		left: 40%;
+	}
+
+	.proj-desc {
+		font-size: 16px;
+		color: white;
+	}
+	
+	.game-desc {
+		font-size: 16px;
+		color: white;
+	}
+	
+	.proj-pic {
+		width: 275px;
+		height: 200px;
+	}
+	
+	.game-pic {
+		width: 275px;
+		height: 200px;
 	}
 	
 	.form-submit-btn {
@@ -244,14 +266,15 @@ footer > .row > .col a > i {
 		left: 50%;
 	}
 	
-	}
-
-
-
-
+}
 
 
 @media screen and (max-width: 335px) {
+
+.intro > .row > .col > a {
+	position: absolute;
+	left: 25%;
+}
 
 .proj-desc {
 	font-size: 16px;
