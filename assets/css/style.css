@@ -102,14 +102,32 @@ nav {
 	padding-right: 20px;
 }
 
+.games {
+	min-height: 50vh;
+	background-color: #21272d;
+	height: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
 
 .proj-pic {
 	width: 900px;
 	height: 700px;
 }
 
+.game-pic {
+	width: 350px;
+	height: 225px;
+}
+
 .proj-desc {
 	font-size: 20px;
+	color: white;
+}
+
+.game-desc {
+	font-size: 18px;
 	color: white;
 }
 
