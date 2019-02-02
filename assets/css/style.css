@@ -44,7 +44,7 @@ nav {
 }
 
 .intro {
-	background-image: url("../images/crissXcross.png");
+	background-image: url("../images/dazzlingBlack.jpg");
 	min-height: 100vh;
 	height: auto;
 	display: flex;
@@ -129,6 +129,7 @@ nav {
 .game-desc {
 	font-size: 18px;
 	color: white;
+	text-align: center;
 }
 
 .proj-desc {
