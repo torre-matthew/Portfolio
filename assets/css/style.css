@@ -84,16 +84,24 @@ nav {
 }
 
 .about-me {
-	min-height: 100vh;
+	min-height: 50vh;
 	height: auto;
 	background-color: #90aacd;
 }
 
-.exp-imgs {
-	width: 30px;
-	height: 30px;
+.about-me-desc {
+	font-size: 22px;
+	color: white;
 }
 
+.about-me > .container > .row > .col > img {
+	width: 300px;
+	height: 400px;
+}
+
+.prof-pic-col {
+	text-align: right;
+}
 .projects {
 	min-height: 100vh;
 	background-color: #2F3740;
