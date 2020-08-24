@@ -165,6 +165,28 @@ let stickyNav = () => {
     }
 }
 
+
+let checkIfPerm = (numOfTrue, len) => {
+    if (numOfTrue === len) {
+        console.log("1");
+    }else {
+        console.log("0");
+    }
+}
+
+let solution = (arr, cb) => {
+ let array = arr;
+ let len = arr.length;
+ let numOfTrue = 0;
+    for (let i = 1; i < len + 1; i++) {
+        if (array.includes(i)){
+            numOfTrue++;
+        }
+    }
+
+    cb(numOfTrue, len);
+}
+
 $(document).ready(function(){
     $('.tabs').tabs();
     $('.sidenav').sidenav();
@@ -173,6 +195,7 @@ $(document).ready(function(){
     displayProjects(nodeProj, "#node-apps");
     displayProjects(spotlight, "#spotlight");
     stickyNav();
+    solution([1,2,3,4,5,6,7,8,9,10,11,12,13,14,15], checkIfPerm);
 });
 
 $(document).scroll(function () {
